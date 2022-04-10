@@ -67,7 +67,7 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: var(--headerc);
+    color: #757575  ;
 }
 
 .header-mail:hover {
@@ -150,7 +150,15 @@ color: var(--main-titlec);
 
 /*---------------IMAGE-----------------------*/
 
-
+.image-top {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #212121;
+}
 
 /*-----------------TEAM-----------------------*/
 .team-item-top {
@@ -159,10 +167,17 @@ color: var(--main-titlec);
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
-    
     color: #212121;
 }
 
+.team-top {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
 .team-item-text {
     font-weight: 400;
     font-size: 16px;
@@ -219,7 +234,6 @@ color: var(--main-titlec);
 /*---------------FOOTER------------------*/
 
 .footer-adress {
-   
     width: 1600px;
     height: 252px;
     left: 0px;
@@ -237,7 +251,7 @@ color: var(--main-titlec);
 }
 
 .footer-map {
-    font-weight: 400;
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71; 
     letter-spacing: 0.03em;
@@ -245,7 +259,7 @@ color: var(--main-titlec);
 }
 
 .footer-mail {
-    font-weight: 400;
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -253,7 +267,7 @@ color: var(--main-titlec);
 }
 
 .footer-tel {
-    font-weight: 400;
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -287,3 +301,5 @@ color: var(--main-titlec);
 .logo-color{
     color: #FFFFFF;
 }
+
+
